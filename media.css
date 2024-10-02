@@ -1,0 +1,63 @@
+@media (max-width : 600px) {
+
+    .page1 nav .second a{
+       display: none;
+    }
+    .page1 {
+        height: 120%;
+    }
+    nav .first img{
+        height: 7vw;
+    }
+    nav .first a{
+        font-size: 3vw;
+    }
+    nav .second button{
+        width: 20vw;
+        height: 7vw;
+        border-radius: 5vh;
+        font-size: 3vw;
+    }
+
+    .page1-in {
+        flex-direction: column-reverse
+    }
+
+    .page1-in .p1R img{
+        width: 30%;
+        margin-left: 0;
+ 
+    }
+    .page1-in .p1L h3{
+        font-size: 5vw;
+    }
+    .page1-in .p1L {
+        width: 100%;
+        
+    }
+    .page1-in .p1L h1{
+        font-size: 10vw;
+    }
+    .page1-in .p1L p{
+        font-size: 2.5vw;
+        line-height: 3vh;
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+
+    .page1-in .p1L button{
+        width: 22vw;
+        font-size: 2.3vw;
+    }
+    .page1-in .p1L .idiv .i1,.i2,.i3,.i4{
+        width: 6.5vw;
+        height: 6.5vw;
+    }
+    .page1-in .p1L .idiv i{
+        font-size: 3vw;
+    }
+
+    
+
+
+}

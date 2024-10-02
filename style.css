@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;   
+  
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+   background-image: url(https://images.unsplash.com/photo-1477093782505-e10aaeb27c6d?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.6);
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+ 
+    padding: 5vh 0;
+}
+nav .first img{
+    height: 5vw;
+    margin-right: 2vw;
+}
+
+nav .first , .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav .first a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+
+nav .second{
+  
+    gap: 2vw;
+    padding: 0 2vw;
+}
+nav .second a{
+    font-size: 1.6vw;
+    text-decoration: none;
+    color: white;
+   
+}
+nav .second button{
+    width: 15vh;
+    height: 3vw;
+    border-radius: 2vw;
+    border: none;
+    color: white;
+    background-color: #8650f7;
+    font-size: 1.3vw;
+    transition: all linear 0.25s;
+}
+nav .second button:hover{
+    background-color: #7b40fc;
+}
+.page1-in{
+    display: flex;
+  justify-content:center;
+  
+}
+.page1-in .p1L{
+
+    
+    width: 50%;
+    padding: 5vh;
+
+}
+.page1-in .p1L h3{
+    font-size: 3vw;
+    margin-bottom: 1.5vh;
+    color: rgb(192, 189, 189);
+}
+.page1-in .p1L h1{
+    color:cadetblue;
+    font-size: 5vw;
+    margin-bottom: 1.5vh;
+    font-weight: 900;
+}
+.page1-in .p1L p{
+    font-size: 1.7vw;
+    color: rgb(192, 189, 189);
+    margin-bottom: 10vh;
+    line-height: 4vh;
+}
+.page1-in .p1L button{
+    width: 15vw;
+    height: 6vh;
+    border-radius: 4vh;
+    border: none;
+    font-size: 1.3vw;
+    color: #8650f7;
+    background: none;
+    border: 0.1vw solid  #8650f7;
+    transition: all linear 0.25s;
+}
+
+.page1-in .p1L button:hover{
+    background-color: #8650f7;
+    color: white;
+}
+
+.bdiv{
+    display: flex;
+  
+   
+    align-items: center;
+}
+
+
+.page1-in .p1L .idiv{
+    display: flex;
+}
+.page1-in .p1L .idiv .i1,.i2,.i3,.i4{
+   
+    border: 0.1vw solid  #8650f7;
+    width: 3vw;
+    height: 3vw;
+    font-size: 5vh;
+    border-radius: 50%;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.25s;
+ 
+
+}
+
+.page1-in .p1L .idiv i{
+    font-size: 1.5vw;
+    color: #8650f7;     
+}
+
+
+.page1-in .p1L .idiv .i1:hover,.i2:hover,.i3:hover,.i4:hover{
+    background-color: #8650f7;
+    i{
+        color: white;
+
+    }
+ 
+    
+  
+
+}
+.page1-in .p1R {
+  
+   padding: 5vh;
+}
+.page1-in .p1R img{
+    border: 0.1vw solid cadetblue;
+    width: 60%;
+    margin-left: 30%;
+    rotate: 3deg;
+    transition: all linear 0.25s;
+    border-radius: 2.5vh;
+    
+}
+.page1-in .p1R img:hover{
+    rotate: 0deg;
+    border: 0.2vw solid  #8650f7;
+  
+
+    
+}
+
+    
+
