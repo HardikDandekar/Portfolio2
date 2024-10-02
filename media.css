@@ -24,7 +24,7 @@
     }
 
     .page1-in .p1R img{
-        width: 30%;
+        width: 40%;
         margin-left: 0;
  
     }
@@ -46,7 +46,7 @@
     }
 
     .page1-in .p1L button{
-        width: 22vw;
+        width: 35vw;
         font-size: 2.3vw;
     }
     .page1-in .p1L .idiv .i1,.i2,.i3,.i4{
@@ -57,7 +57,62 @@
         font-size: 3vw;
     }
 
+    .page1-end{
+        width: 100%;
+        overflow:scroll;
+    }
+    .page1 .page1-end .e1{
+        width: 120%;
+        margin-top: 0;
+    }
+
+    .page1 .page1-end .e1 h1{
+        font-size: 7.5vw;
+        width: 100%;
+        margin-right: 2vw;
+    }
+    .page1 .page1-end .e1 span{
+        font-size: 3vw;
+        margin-right: 4vw;
+        width: 100%;
+        
+    }
+
+    .page2{
+       height: 65%;
+    }
+    .page2 .page2-f{
+        
+        height: 30vw;
+    }
+    .page2 .page2-f h1{
+        font-size: 6vw;
+
+    }
+   
+    .page2 .page2-f p{
+       font-size: 2.7vw;
+    }
+
+    .page2 .div-s1{
+        height: 7vh;
+    }
+    .div-s1 .divsL span{
+        font-size: 4vw;
+    }
+    .div-s1 .divsL h1{
+        font-size: 3vw;
+    }
+    .div-s1 .divsR p{
+        font-size: 1.9vw;
+    }
+    .div-s1 .divsR i{
+        font-size: 4vw;
+    }
+
+
     
 
 
 }
+
